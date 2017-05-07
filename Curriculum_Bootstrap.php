@@ -13,7 +13,7 @@
    		<!--Bloque Nombre y Foto-->
    		<div class="row" style="background-color: #347bb5;">
    			<div class="col-lg-8 text-center" style="background-color: #347bb5; color: white;">
-   				<h1 id="titulonombre">Carlos Eduardo Infante Sabat&eacute;</h1>
+   				<h1 id="titulonombre">Carlos Eduardo Infante Sabaté</h1>
    			</div>
    			<div class="col-lg-4 text-center" style="background-color: #347bb5;">
    				<img src="images/fotocurriculum2.png" alt="Mi fotografía" class="img-circle" width="100">
@@ -115,6 +115,21 @@
 					<li>Primer proyecto utilizando cajas (div) y sus propiedades</li>
 					<li>Primer proyecto utilizando Bootstrap</li>
 				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12" style="background-color: white;">
+				<h6>
+					<?php
+					 	$hora=12;
+						if ($hora>=16) {
+							echo "<p class='cerrado'>Cerrado para contacto</p>";
+						} else {
+							echo "Abierto para contato";
+						}
+
+					?>
+				</h6>
 			</div>
 		</div>
    	</div>
